@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-lg-4 img-logo">
+    <img class="img-fluid rounded mt-4 mb-4" src="../img/YAR-logo.svg" alt="Young Art Reading logo">
+  </div>
+  <div class="col-lg-8">
+    <h1 class="mt-5 mb-3" id="pageHeaderText"></h1>
+  </div>  
+</div>
+
+<script>
+  $(function() {
+    var pageHeaderText =   $("#pageHeaderPlaceholder").data("pageheader");
+     document.getElementById("pageHeaderText").innerHTML = pageHeaderText;
+    });
+</script>
